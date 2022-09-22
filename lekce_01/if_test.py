@@ -1,8 +1,6 @@
-vstup = input('Rozumis tomu (ano/ne): ')
+vstup = input('Rozumis tomu? (ano/ne): ')
 
-rozhodnuti = vstup == 'ano'
-
-if rozhodnuti:
+if vstup == 'ano':
     print('To je super!')
 elif vstup == 'ne':
     print(':(')
